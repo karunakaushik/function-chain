@@ -1,0 +1,36 @@
+# ignore
+
+# Node.js
+/node_modules/
+
+# Next.js build output
+.next/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage
+coverage/
+
+# TypeScript (if using TypeScript)
+*.tsbuildinfo
