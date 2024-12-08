@@ -38,7 +38,7 @@ const FunctionCard: React.FC<FunctionCardProps> = ({
 
   return (
     <div className="flex flex-col gap-6 w-fit bg-white shadow rounded-[8px] p-4 ">
-      <h4>{label}</h4>
+      <h4 className="text-[#A5A5A5]">{label}</h4>
       <div className="flex flex-col gap-2 text-black">
         <label className="text-xs">Equation:</label>
         <input
@@ -56,7 +56,7 @@ const FunctionCard: React.FC<FunctionCardProps> = ({
           value={equationNo}
           disabled={disabled}
           readOnly
-          className="border rounded-[8px] outline-none text-xs h-[33px] w-[195px] bg-[#F5F5F5] ps-2"
+          className="border text-[#A5A5A5] rounded-[8px] outline-none text-xs h-[33px] w-[195px] bg-[#F5F5F5] ps-2"
         />
       </div>
     </div>
